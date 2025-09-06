@@ -1,6 +1,5 @@
-const p = document.createElement("p");
-p.innerText = "Hello World";
-document.body.append(p);
+import {createElement} from "./modules.js";
 
-document.body.style.background ="palegoldenrod";
-p.style.color ="blue";
+createElement();
+
+//imported a function from modules.js
