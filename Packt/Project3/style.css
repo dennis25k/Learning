@@ -1,0 +1,47 @@
+header {
+    background-color: rgba(240, 248, 255, 0.9);
+    font-size: 1.5rem;
+}
+
+body {
+    width: 90vw;
+}
+
+main {
+    background-color: rgba(203, 234, 241, 0.70);
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: rgba(116, 202, 233, 0.70);
+}
+
+.secondary_info {
+    background-color: rgba(255, 150, 150, 0.9);
+    color: rgba(40, 50, 50, 0.95);
+    font-size: 1rem;
+}
+
+#page_content h2 {
+    background-color: rgba(245,245,220, 095);
+}
+
+footer {
+    background-color: rgba(240, 248, 255, 0.9);
+    height: 10vh;
+}
+
+/*Image Sizing*/
+
+.small_img {
+    height: 20vh;
+}
+
+.medium_img {
+    width: 50%;
+}
+
+.large_img {
+    width: 100%;
+}

@@ -1,0 +1,147 @@
+* {
+    background-color: rgb(226, 220, 213);
+}
+
+header {
+    background-color: rgb(200, 100, 100);
+    color: rgb(226, 220, 213);
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+}
+
+header h1, header p {
+    background-color: rgb(200, 150, 150);
+}
+
+footer p {
+    background-color: rgb(200, 150, 150);
+    color: rgb(50, 25, 25);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+/*Index Page Styling*/
+
+.large-image {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+#welcome a {
+    display: block;
+    margin: 10px auto;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.big-image {
+    width: 50%;
+}
+
+/*Home Page Styling*/
+
+nav {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10%;
+    color:rgb(50, 25, 25);
+    font-family: Georgia, Times, serif;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(200, 150, 150);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(50, 25, 25);
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+article {
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+    vertical-align: top;
+}
+
+#content h2{
+    text-align: center;
+}
+
+#reviews {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(100, 150, 150);
+}
+
+.review {
+    display: inline-block;
+    width: 30%;
+    background-color: rgb(200, 150, 150);
+    padding: 10px;
+    margin: 5px;
+}
+
+.review p {
+    background-color: rgb(226, 220, 213);
+    color: rgb(50, 25, 25);
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.medium-image {
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+/*Contact Page*/
+
+#news-letter {
+    text-align: center;
+    border: 3px solid rgb(200,150,150);
+    padding: 10px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+
+/*Styling Pricing Page*/
+
+table {
+    border: 3px solid rgb(50, 25, 25);
+    width: 80%;
+    margin: 25px auto;
+}
+
+th {
+    font-size: 2rem;
+    color:rgb(50, 25, 25);
+    background-color: rgb(200,150,150);
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+    color:rgb(255,255,255);
+    background-color: rgb(200, 100, 100);
+}
+
+.small-image {
+    width: 25%;
+}
+
+/*Picture Page*/
+.picture-row {
+    text-align: center;
+    padding: 25px;
+}
+
+.picture-row img {
+    margin: 5px;
+}
