@@ -1,0 +1,99 @@
+* {
+    font-family:'Franklin Gothic Medium, Arial, sans-serif;
+}
+
+/*Header Styling*/
+header {
+    background-color:rgb(176, 224, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.small-image {
+    height: 25px;
+    padding: 0px 25px;
+}
+
+/*Search Styling*/
+#search {
+    text-align: center;
+}
+
+#search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search input {
+    width: 500px;
+    height: 25px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: rgb(176, 224, 230);
+    width: 100px;
+    padding: 5px 0;
+    border: 1ps solid rgb(0,0,0);
+    border-radius: 15px;
+}
+
+/*News Styling*/
+#headline {
+    text-align: center;
+    margin: 50px auto;
+    width: 350px;
+    background-color: rgba(220, 229, 237, .25);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#news {
+    display: grid;
+    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px;
+    justify-content: center;
+}
+
+.news-item {
+    background-color: rgba(220, 229, 237, .25);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: 1px solid rgb(0,0,0);
+}
+
+.image-icon {
+    height: 150px;
+}
+
+/*Footer Styling*/
+footer {
+    background-color: rgb(176, 224, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+footer p {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Den's T-Shirt Store</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <img class="small-image" src="images/shirt_header.jpg">
+            <div>
+                <h1>Den's T-Shirt Store</h1>
+                <p>We Dress For Comfort and Style</p>
+            </div>
+            <img class="small-image" src="images/shirt_header.jpg">
+        </header>
+
+        <main id="tool">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="design.html">Design</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="sizing.html">Sizing</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            
+            <div id="tool-div">
+                <h2>Size Calculator</h2>
+                
+                <div id="tool-calc">
+                  <div>
+                    <label for="feet">Feet</label>
+                    <input type="number" id="feet" min="0">
+                  </div>
+
+                  <div>
+                    <label for="inches">Inches</label>
+                    <input type="number" id="inches" min="0" max="11">
+                  </div>
+
+                  <div>
+                    <label for="pounds">Pounds</label>
+                    <input type="number" id="pounds" min="0">
+                  </div>
+
+                  <div>
+                    <button id="calculate">Determine Size</button>
+                  </div>
+
+                </div>
+
+                <div id="tool-values">
+                    <h3>You Are</h3>
+                    <h3>We Recommend A Size:</h3>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Call Today: 1-800-555-1212</p>
+        </footer>
+
+        <script src="size.js"></script>
+
+    </body>
+
+</html>
